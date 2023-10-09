@@ -1,0 +1,311 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+}  
+/* Jeffery vond dit hier boven blijkbaar handig. */
+
+.sources{
+    padding-right: 3vw;
+    text-decoration: none;
+}
+.sources ul a{
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+
+
+section img{
+    width: 45vw;
+    height: 31vw; 
+    padding-top: 3em;
+}
+
+
+
+body {
+    background-color: rgb(3, 45, 100);
+    color: rgb(255, 255, 255);
+    overflow-x:hidden
+    
+   
+}
+section {
+    padding: 3em 12vw 2.5em;
+} 
+article {
+    padding: 3em 12vw 2.5em;
+    display: flex;
+}
+
+
+h1  {
+    font-size: 2.7em;
+    padding-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+p {width: 40vw;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.2vw;}
+
+
+
+
+/* header css begins here */ 
+header {
+    width: 97vw ;
+    height: auto;
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1em;
+    padding-left: 2vw;
+    border-radius: 1em;
+}
+header nav img{
+    width: 10vw;
+}
+
+header nav { 
+    display: flex;
+    justify-content: space-around;
+
+}
+header nav ul {
+    display: flex;
+    gap: 2vw;
+    justify-content: space-evenly;
+    width: 100vw;
+}      
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.25em;
+}
+header nav li a:hover {
+    border-bottom: 1px solid black;
+}
+header nav li a:active {
+    opacity: 0.5;
+}
+/* header css ends here */
+
+
+
+/* .box1 and .box2 are used on page index.html to create different flexboxes. */
+.box1 {
+    display: flex;
+    margin: 2em;
+    padding-top: 3em;
+}
+.box1 img{
+    max-width: 48vw;
+    height: 34vw;
+    min-width: 50%;
+}
+.box2 {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+}
+.box2 p {
+    width: 20vw;
+    font-size: 1.6;
+}
+
+
+/* the <p> <a> (hover, active) below are used to style links in text. */
+p a{
+    text-decoration: none;
+    transition: all .2s ease;
+    border-bottom: 2px solid rgb(253, 22, 22);
+    
+}
+p a:hover{
+    background-color: red; 
+    transition: 0.3s;
+    opacity: 0.9;
+}
+p a:active {
+    opacity: 0.5;
+}
+a {color: rgb(255, 255, 255);}
+
+
+
+/* specific ccs of "learn more" link on page index.html begins here.  */
+.linkbutton1 {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 100px;
+    color:  rgb(3, 45, 100);
+    transition: background-color 0.3s,
+        color 0.3s;
+    margin-top: 2em;
+}
+.linkbutton1:hover{
+    background-color: rgb(3, 45, 100);
+    color: rgb(255, 255, 255);
+}
+.linkbutton1:active {
+    opacity: 0.5;
+}
+.linkbutton1 {
+    text-decoration: none;
+}
+/* specific ccs of "learn more" link on page index.html ends here.  */
+
+
+
+figcaption {
+    padding-bottom: 3%;
+    font-style: italic;
+}
+
+
+
+
+/* footer css begins here */
+
+footer {
+    width: 100%;
+    height: 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    border-top: 0.1em solid white;
+    margin-top: 20em;
+    color: white;
+    
+
+}
+
+.column {
+    display: flex;
+    font-size: 1.2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    
+}
+.column2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.2em;
+    padding-left: 2em;
+    padding-top: 2em;
+
+}
+
+.column2 img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+footer nav img {
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+}
+
+/* footer css ends here */
+
+
+/* .page3box1 & .page3box2 are used to make a flexbox on page3.html*/
+.page3box1{
+    display: flex;
+    gap: 3em;
+}
+.page3box1 img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+}
+.page3box2 {
+    display: flex;
+}
+.page3box2 img figcaption{
+    display: flex;
+}
+
+.page3box2 img {
+    width: 30vw;
+    height: 19vw;
+    padding-top: 3em;
+    padding-right: 2em;
+}
+
+
+.page4box1 {
+    display: flex;
+}
+.page4box1 img figcaption{
+    display: flex;
+}
+
+.page4box1 img {
+    width: 30vw;
+    height: 19vw;
+    padding-top: 3em;
+    padding-right: 2em;
+}
+
+/* firebox1 and firebox2 are used to resize specific images : nb2.jpg on page2 and mazda_nd1.jpg */
+
+.firebox1{
+    width: 48vw;
+    height: 28vw;
+    padding-top: 3em
+}
+.firebox2{
+    width: 54vw;
+    height: 27vw;
+}
+
+
+/* css used to style table begins here */
+
+table{
+    margin: 3vw 0;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 1em rgb(10, 10, 10);
+    
+}
+
+table th,
+table td {
+    padding: 0.6em 1em;
+}
+/* css used to style table ends here */
+
+
+
+
+
+
+
+    
+
